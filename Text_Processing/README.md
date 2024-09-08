@@ -13,17 +13,17 @@
 * Function: sliding_window(text, window_size, overlap)
 * Purpose: Splits the cleaned text into chunks of specified size with a given overlap, making it easier to generate questions and answers.
 
-3.Checkpointing:
+3. Checkpointing:
 
 * Functions: save_checkpoint(questions, answers, chunks_done, checkpoint_file) and load_checkpoint(checkpoint_file)
 * Purpose: Saves and loads progress to/from a CSV file, allowing the script to resume from where it left off in case of interruptions.
 
-4.OpenAI LLM Integration:
+4. OpenAI LLM Integration:
 
-*Setup: OpenAI API key is required to use the model.
-*Functions: Uses the OpenAI LLM to generate questions and answers based on text chunks.
+* Setup: OpenAI API key is required to use the model.
+* Functions: Uses the OpenAI LLM to generate questions and answers based on text chunks.
 
-5.Document Processing:
+5. Document Processing:
 
 Step 1: Load and clean the text.
 Step 2: Wrap the content in LangChain's document format.

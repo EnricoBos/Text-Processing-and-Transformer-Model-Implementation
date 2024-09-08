@@ -35,8 +35,8 @@
    - Purpose: For each chunk, the script generates a set number of questions and answers. It saves progress periodically to a checkpoint file.
 
 ## Environment
-* **< Python 3.10.10 >**
-* **< Tensorflow V.2.10.0 >**
+* Python 3.10.10 
+* Tensorflow V.2.10.0 
 
 ## Implementation
 

@@ -4,8 +4,6 @@ Created on Fri Sep  6 08:52:48 2024
 
 @author: Enrico
 """
-
-###processing vreating question answer ########################################
 import openai
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 #from langchain.document_loaders import TextLoader
@@ -17,10 +15,8 @@ import sys
 import pandas as pd
 import os
 
-
-
-
 ##### Helper Functions  ########################################################
+
 #Sliding window can be implemented by taking a fixed-size window of text with some overlap
 # NOt USED !
 # def sliding_window(text, window_size, overlap):
@@ -30,7 +26,7 @@ import os
 #         chunk = " ".join(words[i:i + window_size])
 #         chunks.append(chunk)
 #     return chunks
-###############################################################################
+
 def clean_text(text):
     """
      Cleans the input text by removing metadata, URLs, page numbers, and

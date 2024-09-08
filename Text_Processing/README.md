@@ -25,8 +25,8 @@
 
 5. Document Processing:
 
-Step 1: Load and clean the text.
-Step 2: Wrap the content in LangChain's document format.
+Step 1: **  Load and clean the text.
+Step 2: **  Wrap the content in LangChain's document format.
 Step 3: Chunk the content using RecursiveCharacterTextSplitter.
 Step 4: Define prompts for generating questions and answers.
 

@@ -3,10 +3,10 @@
 * This repository contains a Python script designed to process text files, chunk them into manageable pieces, and generate questions and answers using OpenAI's language model (LLM). The script is intended for tasks such as creating question-answer datasets from large text corpora. Below is a breakdown of the main components of the script:
 
 ## Overview
-1. Text Cleaning:
+* 1. Text Cleaning:
 
-       * Function: `clean_text(text)`
-  -  Purpose: Cleans the input text by removing unwanted metadata, URLs, page numbers, and chapter titles. It also ensures the text starts from a relevant section (e.g., "CHAPTER ONE").
+      * Function: `clean_text(text)`
+      * Purpose: Cleans the input text by removing unwanted metadata, URLs, page numbers, and chapter titles. It also ensures the text starts from a relevant section (e.g., "CHAPTER ONE").
 
 2. Sliding_window Chunking Process (NOT USED):
 

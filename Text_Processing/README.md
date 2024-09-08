@@ -34,17 +34,22 @@
 
    - Purpose: For each chunk, the script generates a set number of questions and answers. It saves progress periodically to a checkpoint file.
 
-## Environment
-* Python 3.10.10 
-* Tensorflow V.2.10.0 
+## Dependencies
+* python 3.10.10 
+* tensorflow V.2.10.0
+* pandas - For handling dataframes and saving/loading checkpoints.
+* re - For regular expression operations.
+* openai - For interacting with OpenAI's API.
+* langchain - For document formatting and text splitting (make sure to include this library if used in your script).
 
-## Implementation
+## Usage
+* Setup: Make sure to replace the placeholder API key with your own OpenAI API key.
+* Input File: Update the path_txt variable with the path to your text file.
+* Run the Script: Execute the script to start processing. It will automatically handle text cleaning, chunking, and generating questions and answers.
 
-
-
-## Executing program
-
-
+## Notes
+Adjust window_size, overlap, and other parameters as needed to fit your specific use case.
+Checkpoints are saved periodically, but you can adjust the save_checkpoint_every_n_chunks value to change the frequency of saving progress.
 
 ## Authors
 

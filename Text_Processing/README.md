@@ -10,8 +10,8 @@
 
 2. Sliding_window Chunking Process (NOT USED):
 
-*Function: sliding_window(text, window_size, overlap)
-*Purpose: Splits the cleaned text into chunks of specified size with a given overlap, making it easier to generate questions and answers.
+* Function: sliding_window(text, window_size, overlap)
+* Purpose: Splits the cleaned text into chunks of specified size with a given overlap, making it easier to generate questions and answers.
 
 3.Checkpointing:
 

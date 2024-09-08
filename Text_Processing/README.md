@@ -10,13 +10,13 @@
 
 2. Sliding_window Chunking Process (NOT USED):
 
-* Function: sliding_window(text, window_size, overlap)
-* Purpose: Splits the cleaned text into chunks of specified size with a given overlap, making it easier to generate questions and answers.
+  -  Function: 'sliding_window(text, window_size, overlap)'
+  -  Purpose: Splits the cleaned text into chunks of specified size with a given overlap, making it easier to generate questions and answers.
 
 3. Checkpointing:
 
-* Functions: save_checkpoint(questions, answers, chunks_done, checkpoint_file) and load_checkpoint(checkpoint_file)
-* Purpose: Saves and loads progress to/from a CSV file, allowing the script to resume from where it left off in case of interruptions.
+ - Functions: 'save_checkpoint(questions, answers, chunks_done, checkpoint_file) and load_checkpoint(checkpoint_file)'
+ - Purpose: Saves and loads progress to/from a CSV file, allowing the script to resume from where it left off in case of interruptions.
 
 4. OpenAI LLM Integration:
 

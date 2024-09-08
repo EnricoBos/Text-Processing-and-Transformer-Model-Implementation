@@ -5,7 +5,7 @@
 ## Overview
 1. Text Cleaning:
 
-  - * Function: `clean_text(text)`
+       * Function: `clean_text(text)`
   -  Purpose: Cleans the input text by removing unwanted metadata, URLs, page numbers, and chapter titles. It also ensures the text starts from a relevant section (e.g., "CHAPTER ONE").
 
 2. Sliding_window Chunking Process (NOT USED):

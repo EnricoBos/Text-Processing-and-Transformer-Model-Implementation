@@ -27,11 +27,12 @@ Make sure you have the following packages installed:
 
 ## Usage
 * Training
-	-  To train the model, set the choice variable to 'train' in the train_and_eval.py script:
-		- if __name__ == "__main__":
-    			choice = 'train'
-    			# (Training code here)
-	-Ensure the path to your question-answer dataset is correctly specified in the path_aq variable. The dataset will be processed and saved as 	  	   data_tokenized/data_token.pickle.
+	-  To train the model, set the `choice` variable to `'train'` in the `train_and_eval.py` script:
+		```python
+		if __name__ == "__main__":
+		    choice = 'train'
+		    # (Training code here)
+Ensure the path to your question-answer dataset is correctly specified in the path_aq variable. The dataset will be processed and saved as data_tokenized/data_token.pickle.
 The training loop will save model weights to final_weights.h5 and periodically save checkpoints to ./checkpoints.
 
 * Evaluation

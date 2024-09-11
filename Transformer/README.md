@@ -4,9 +4,9 @@ This repository contains code for training and evaluating a Transformer model on
 
 ## Overview
 The project involves:
-	-  Data Processing: Cleaning question-answer pairs.
-	-  Model Training: Training a Transformer model on the processed data.
-	-  Evaluation: Testing the trained model with sample questions and custom queries.
+	*  Data Processing: Cleaning question-answer pairs.
+	*  Model Training: Training a Transformer model on the processed data.
+	*  Evaluation: Testing the trained model with sample questions and custom queries.
 
 ## Project Structure
 	* train_and_eval.py: The main script for training and evaluating the Transformer model.

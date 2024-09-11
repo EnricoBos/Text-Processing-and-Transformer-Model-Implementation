@@ -38,7 +38,7 @@ The training loop will save model weights to final_weights.h5 and periodically s
 
 * Evaluation
 	- To evaluate the model, set the `choice` variable to `'eval'` in the `train_and_eval.py` script:
- - 		```python
+ - 		```
 		if __name__ == "__main__":
     			choice = 'eval'
     			# (Evaluation code here)

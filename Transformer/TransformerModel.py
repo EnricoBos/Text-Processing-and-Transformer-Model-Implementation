@@ -652,7 +652,7 @@ if __name__ == "__main__":
     
     if (choice== 'train'):
         ##### data loadning and processing ########################################
-        path_aq = 'C:/Users/Enrico/Desktop/Progetti/20 TRANSFORMERS/for_git/questions_and_answers_final.csv' # answer question path
+        path_aq = './questions_and_answers_final.csv' # answer question path
     
         data = load_and_process_data(path_aq)
         train = data['train']

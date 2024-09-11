@@ -37,10 +37,13 @@ Make sure you have the following packages installed:
 The training loop will save model weights to final_weights.h5 and periodically save checkpoints to ./checkpoints.
 
 * Evaluation
-	- To evaluate the model, set the choice variable to 'eval':
+	- To evaluate the model, set the `choice` variable to `'eval'` in the `train_and_eval.py` script:
+ - 		```python
 		if __name__ == "__main__":
     			choice = 'eval'
     			# (Evaluation code here)
+   		```
+	- The script will load the tokenized data and model weights, run evaluations, and print predictions for sample and custom questions.
 
 
 ## Authors

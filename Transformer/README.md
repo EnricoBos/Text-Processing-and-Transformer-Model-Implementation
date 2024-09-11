@@ -17,7 +17,7 @@ The project involves:
 
 ## Dependencies
 Make sure you have the following packages installed:
-	*tensorflow numpy pandas scikit-learn sentencepiece contractions
+* tensorflow numpy pandas scikit-learn sentencepiece contractions
 
 
 

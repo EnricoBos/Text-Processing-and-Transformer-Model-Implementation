@@ -22,7 +22,7 @@ Make sure you have the following packages installed:
 
 
 ## Data Processing: question/answer generation
-* The dataset used consists of question-answer pairs from Harry Potter and the Sorcerer's Stone. For data processing details, refer to the Text_Processing folder's README **[Text_Processing](./Text_Processing):**
+* The dataset used consists of question-answer pairs from Harry Potter and the Sorcerer's Stone. For data processing details, refer to the **[Text_Processing](./Text_Processing):** folder's README 
 
 
 ## Usage

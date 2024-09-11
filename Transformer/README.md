@@ -56,7 +56,6 @@ The training loop will save model weights to final_weights.h5 and periodically s
 - **Actual:**  
   The correct or expected response for the given input.
 
-During evaluation, the script prints:
 Test Case 3927
 * Input      : what is professor mcgonagall concerned about in regards to the behavior of people on the streets
 * Predicted  : The text suggests that there is a lot of speculation and noise in the Muggle world, possibly caused by a couple of people from non-magical people known as Muggles. This is evident from the story, which begins to upset due to a lack of concern for the speaker, who is likely a professor or authority figure. There is a dismissive attitude towards the situation, and it is implied that the speaker is frustrated because these people may not be used to this activity and are more focused on it than on the current situation. There have been no longer-clear reasons for it, and there is no mention of a few remaining reasons for it.
@@ -67,6 +66,11 @@ Test Case Custom
 * Predicted  : Hagrid is a character in the Harry Potter series who is known for his love and knowledge of the wizarding world. In this passage, he is speaking to a young boy who is likely a student at Hogwarts and considers his loyalty to Dumbledore. In this passage, Hagrid is shown to be familiar with the wizarding world and its creatures, as he offers to give them a ride to King’s Cross Station. The passage also mentions that Hagrid is familiar with Hogwarts, and its size suggests that Hagrid is friendly and welcoming, willing to take risks with new things.
 * Actual : Hagrid is the half-giant Keeper of Keys and Grounds at Hogwarts, loyal to Dumbledore, and a friend to Harry.
 ----------------------------------------
+
+## Comments
+In this project, i have demonstrated that the Transformer model is capable of generating meaningful and coherent responses even with a relatively small dataset. The results indicate that the model effectively understands and responds to the input prompts in a contextually relevant manner.
+
+However, it's important to note that the performance of the model can be significantly enhanced by incorporating additional data. Expanding the dataset to include text from other *Harry Potter* books, as well as supplementary information from external sources, will likely improve the model's accuracy and overall effectiveness.
 
 
 ## Authors

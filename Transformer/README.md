@@ -55,7 +55,7 @@ Test Case 3927
 -----------------
 Test Case Custom
 * Input      : describe hagrid
-* Predicted  : hagrid is a character in the harry potter series who is known for his love and knowledge of the wizarding world in this passage he is speaking to a young boy who is likely a student at hogwarts and considers his loyalty to dumbledore in this passage hagrid is shown to be familiar with the wizarding world and its creatures as it offers to give them a ride to kings cross station the passage also mentions that hagrid is familiar with the hogwarts and its size suggests that hagrid is friendly and welcoming willing to take risks with new things
+* Predicted  : Hagrid is a character in the Harry Potter series who is known for his love and knowledge of the wizarding world. In this passage, he is speaking to a young boy who is likely a student at Hogwarts and considers his loyalty to Dumbledore. In this passage, Hagrid is shown to be familiar with the wizarding world and its creatures, as he offers to give them a ride to King’s Cross Station. The passage also mentions that Hagrid is familiar with Hogwarts, and its size suggests that Hagrid is friendly and welcoming, willing to take risks with new things.
 * Actual : Hagrid is the half-giant Keeper of Keys and Grounds at Hogwarts, loyal to Dumbledore, and a friend to Harry.
 ----------------------------------------
 

@@ -50,8 +50,15 @@ The training loop will save model weights to final_weights.h5 and periodically s
 During evaluation, the script prints:
 Test Case 3927
 * Input      : what is professor mcgonagall concerned about in regards to the behavior of people on the streets
-*Predicted  : the text suggests that there is a lot of speculation and noise in the muggle world possibly caused by a couple of people from nonmagical people known as muggles this is evident from the story begins to upset a lack of concern for the speaker who is likely a professor or authority figure dismissive attitude towards the situation it is implied that the speaker is frustrated that these people may not be used to this activity and are more focused on it than just the current situation have been no longer clearing dedicated and there is no mention of a few remaining reasons for it
+* Predicted  : the text suggests that there is a lot of speculation and noise in the muggle world possibly caused by a couple of people from nonmagical people known as muggles this is evident from the story begins to upset a lack of concern for the speaker who is likely a professor or authority figure dismissive attitude towards the situation it is implied that the speaker is frustrated that these people may not be used to this activity and are more focused on it than just the current situation have been no longer clearing dedicated and there is no mention of a few remaining reasons for it
 * Actual     : the conversation between dumbledore and professor mcgonagall suggests that the wizarding world has been through a difficult time for the past eleven years despite this people are not being cautious and are instead being careless openly discussing rumors in public mcgonagall is frustrated by this behavior while dumbledore takes a gentler approach
+
+Test Case Custom
+----------------------------------------
+Input      : describe hagrid
+Predicted  : hagrid is a character in the harry potter series who is known for his love and knowledge of the wizarding world in this passage he is speaking to a young boy who is likely a student at hogwarts and considers his loyalty to dumbledore in this passage hagrid is shown to be familiar with the wizarding world and its creatures as it offers to give them a ride to kings cross station the passage also mentions that hagrid is familiar with the hogwarts and its size suggests that hagrid is friendly and welcoming willing to take risks with new things
+Actual     : Hagrid is the half-giant Keeper of Keys and Grounds at Hogwarts, loyal to Dumbledore, and a friend to Harry.
+----------------------------------------
 
 
 ## Authors

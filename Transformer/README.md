@@ -32,6 +32,7 @@ Make sure you have the following packages installed:
 		if __name__ == "__main__":
 		    choice = 'train'
 		    # (Training code here)
+  		```
 Ensure the path to your question-answer dataset is correctly specified in the path_aq variable. The dataset will be processed and saved as data_tokenized/data_token.pickle.
 The training loop will save model weights to final_weights.h5 and periodically save checkpoints to ./checkpoints.
 

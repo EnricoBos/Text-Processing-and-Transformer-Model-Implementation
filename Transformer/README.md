@@ -10,7 +10,7 @@ The project involves:
 
 ## Project Structure
 	* train_and_eval.py: The main script for training and evaluating the Transformer model.
-	* data_tokenized/: Directory to store tokenized data and model weights.
+	* data_tokenized/: Directory to store tokenized data (question/answer)
 	* checkpoints/: Directory for saving model checkpoints.
 
 
@@ -28,11 +28,11 @@ Make sure you have the following packages installed:
 ## Usage
 * Training
 	-  To train the model, set the choice variable to 'train' in the train_and_eval.py script:
-		if __name__ == "__main__":
+		- if __name__ == "__main__":
     			choice = 'train'
     			# (Training code here)
-	   Ensure the path to your question-answer dataset is correctly specified in the path_aq variable. The dataset will be processed and saved as 	  	   data_tokenized/data_token.pickle.
-	   The training loop will save model weights to final_weights.h5 and periodically save checkpoints to ./checkpoints.
+	-Ensure the path to your question-answer dataset is correctly specified in the path_aq variable. The dataset will be processed and saved as 	  	   data_tokenized/data_token.pickle.
+The training loop will save model weights to final_weights.h5 and periodically save checkpoints to ./checkpoints.
 
 * Evaluation
 	- To evaluate the model, set the choice variable to 'eval':

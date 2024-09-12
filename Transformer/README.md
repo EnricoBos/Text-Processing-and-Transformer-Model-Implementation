@@ -68,9 +68,8 @@ Test Case Custom
 ----------------------------------------
 
 ## Comments
-In this project, i have demonstrated that the Transformer model is capable of generating meaningful and coherent responses even with a relatively small dataset. The results indicate that the model effectively understands and responds to the input prompts in a contextually relevant manner.
-
-However, it's important to note that the performance of the model can be significantly enhanced by incorporating additional data. Expanding the dataset to include text from other *Harry Potter* books, as well as supplementary information from external sources, will likely improve the model's accuracy and overall effectiveness.
+In this project, I have demonstrated that the Transformer model is capable of generating meaningful and coherent responses even with a relatively small dataset. However, it is important to note that the responses are not perfect. 
+The performance of the model can be significantly enhanced by incorporating additional data. Expanding the dataset to include text from other Harry Potter books, as well as supplementary information from external sources, will likely improve the model's accuracy and overall effectiveness.
 
 
 ## Authors

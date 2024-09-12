@@ -56,10 +56,10 @@ The training loop will save model weights to final_weights.h5 and periodically s
 - **Actual:**  
   The correct or expected response for the given input.
 
-Test Case 3927
-* Input      : what is professor mcgonagall concerned about in regards to the behavior of people on the streets
-* Predicted  : The text suggests that there is a lot of speculation and noise in the Muggle world, possibly caused by a couple of people from non-magical people known as Muggles. This is evident from the story, which begins to upset due to a lack of concern for the speaker, who is likely a professor or authority figure. There is a dismissive attitude towards the situation, and it is implied that the speaker is frustrated because these people may not be used to this activity and are more focused on it than on the current situation. There have been no longer-clear reasons for it, and there is no mention of a few remaining reasons for it.
-* Actual     : the conversation between dumbledore and professor mcgonagall suggests that the wizarding world has been through a difficult time for the past eleven years despite this people are not being cautious and are instead being careless openly discussing rumors in public mcgonagall is frustrated by this behavior while dumbledore takes a gentler approach
+Test Case 5881
+* Input      : what was the reaction of the students when they first caught sight of hogwarts
+* Predicted  : The text describes a scene in which a large group of people is gathered together to learn. One student named Neville is feeling overwhelmed with emotion as he approaches. A voice announces that they will be arriving at Hogwarts in five minutes. The train slows down, and they quickly exit, only to hear their conversation.
+* Actual     : The group was traveling through a dense forest, with trees so thick that Harry assumed it must be difficult to navigate. The journey was mostly quiet, with the exception of Neville, who had a habit of losing his pet toad and occasionally sniffed. Hagrid, the guide, informed them that they were about to see Hogwarts soon, and there was a collective gasp of excitement from the group
 -----------------
 Test Case Custom
 * Input      : describe hagrid

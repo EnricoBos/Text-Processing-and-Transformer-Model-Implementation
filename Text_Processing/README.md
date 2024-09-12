@@ -56,7 +56,7 @@ This repository contains a Python script designed to process text files from *Ha
 
 ## Notes
 Adjust window_size, overlap, and other parameters as needed to fit your specific use case.
-Checkpoints are saved periodically, but you can adjust the save_checkpoint_every_n_chunks value to change the frequency of saving progress.
+Checkpoints are saved periodically, but you can adjust the `save_checkpoint_every_n_chunks` value to change the frequency of saving progress.
 
 ## Authors
 

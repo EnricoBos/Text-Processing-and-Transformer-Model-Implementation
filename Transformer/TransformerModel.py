@@ -791,11 +791,7 @@ if __name__ == "__main__":
                 print(f"Checkpoint saved at {saved_path}")
         
         
-        # Save the entire model
-        # transformer_model.save('final_model.h5')
-        # print("Model saved to 'final_model.h5'")
-        
-        # save only weights
+        # save weights
         transformer_model.save_weights('final_weights.h5')
         print("Weights saved to 'final_weights.h5'")
     

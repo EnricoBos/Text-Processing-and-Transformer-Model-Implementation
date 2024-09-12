@@ -1,6 +1,6 @@
 # Text Processing and Question-Answer Generation Script
 
-* This repository contains a Python script designed to process text files, chunk them into manageable pieces, and generate questions and answers using OpenAI's language model (LLM). The script is intended for tasks such as creating question-answer datasets from large text corpora. Below is a breakdown of the main components of the script:
+This repository contains a Python script designed to process text files from *Harry Potter and the Sorcerer's Stone* (Book 1), chunk them into manageable pieces, and generate questions and answers using OpenAI's language model (LLM). The script is intended for tasks such as creating question-answer datasets. Below is a breakdown of the main components of the script:
 
 ## Overview
  1. Text Cleaning:

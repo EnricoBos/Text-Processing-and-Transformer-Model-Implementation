@@ -30,10 +30,10 @@ This repository contains a Python script designed to process text files from *Ha
    - Step 2: Wrap the content in LangChain's document format.
    - Step 3: Chunk the content using `RecursiveCharacterTextSplitter`.
 
-     - **Chunk Size = 300**: The script processes the text into chunks of 300 characters. This size strikes a balance between having enough content to generate meaningful questions and keeping the chunks small enough to avoid exceeding the token limits of the language model.
-     - **Overlap = 20**: A small overlap of 20 characters is used to ensure continuity between chunks. This prevents important contextual information from being split across chunks, allowing more coherent question generation.
+     - **Chunk Size = 300**: The script processes the text into chunks of 300 characters. This size balances between having enough content to generate meaningful questions and keeping the chunks small enough to avoid exceeding the token limits of the language model.
+     - **Overlap = 20**: A small overlap of 20 characters is used to ensure continuity between chunks. 
      
-     Both `chunk_size` and `chunk_overlap` can be easily modified based on specific use cases. For larger datasets or more detailed question generation, increasing the chunk size might be appropriate. Similarly, adjusting the overlap allows for more or less continuity between chunks.
+     Both `chunk_size` and `chunk_overlap` can be easily modified based on specific use cases. 
    
    - Step 4: Define prompts for generating questions and answers.
 

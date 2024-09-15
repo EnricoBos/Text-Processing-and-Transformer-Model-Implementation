@@ -31,7 +31,7 @@ This repository contains a Python script designed to process text files from *Ha
    - Step 3: Chunk the content using `RecursiveCharacterTextSplitter`.
 
      - **Chunk Size = 500**: The script processes the text into chunks of 300 characters. This size balances between having enough content to generate meaningful questions and keeping the chunks small enough to avoid exceeding the token limits of the language model.
-     - **Overlap = 50**: A small overlap of 20 characters is used to ensure continuity between chunks. 
+     - **Overlap = 50**: A small overlap of 50 characters is used to ensure continuity between chunks. 
      
      Both `chunk_size` and `chunk_overlap` can be easily modified based on specific use cases. 
    

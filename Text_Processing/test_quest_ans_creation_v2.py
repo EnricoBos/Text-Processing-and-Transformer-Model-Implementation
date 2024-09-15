@@ -142,7 +142,7 @@ if __name__ == "__main__":
     # Set up your OpenAI API key
     openai.api_key = 'YOUR OPENAI API'
     # Set up the OpenAI LLM (make sure to set your OpenAI API key)
-    llm = OpenAI(temperature=0.7, api_key=openai.api_key) 
+    llm = OpenAI(temperature=0.6, api_key=openai.api_key) 
     
     ###############################################################################
     # Test LLM connection

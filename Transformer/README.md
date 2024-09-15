@@ -56,22 +56,23 @@ The training loop will save model weights to final_weights.h5 and periodically s
 - **Actual:**  
   The correct or expected response for the given input.
 
-Test Case 5881
-* Input      : what was the reaction of the students when they first caught sight of hogwarts
-* Predicted  : The text describes a scene in which a large group of people is gathered together to learn. One student named Neville is feeling overwhelmed with emotion as he approaches. A voice announces that they will be arriving at Hogwarts in five minutes. The train slows down, and they quickly exit, only to hear their conversation.
-* Actual     : The group was traveling through a dense forest, with trees so thick that Harry assumed it must be difficult to navigate. The journey was mostly quiet, with the exception of Neville, who had a habit of losing his pet toad and occasionally sniffed. Hagrid, the guide, informed them that they were about to see Hogwarts soon, and there was a collective gasp of excitement from the group
+Test Case 7410
+* Input      : What dangerous reptiles did Dudley and Piers want to see at the reptile house, and what did Dudley find there?
+* Predicted  : Dudley quickly found the largest snake in the place.
+* Actual     : Dudley quickly found the largest snake in the place.
 -----------------
-Test Case Custom
-* Input      : describe hagrid
-* Predicted  : Hagrid is a character in the Harry Potter series who is known for his love and knowledge of the wizarding world. In this passage, he is speaking to a young boy who is likely a student at Hogwarts and considers his loyalty to Dumbledore. In this passage, Hagrid is shown to be familiar with the wizarding world and its creatures, as he offers to give them a ride to King’s Cross Station. The passage also mentions that Hagrid is familiar with Hogwarts, and its size suggests that Hagrid is friendly and welcoming, willing to take risks with new things.
-* Actual : Hagrid is the half-giant Keeper of Keys and Grounds at Hogwarts, loyal to Dumbledore, and a friend to Harry.
+Test Case 3168
+* Input      : What significance does Hagrid's decision to gift Harry an owl as a birthday present hold in the narrative of 'Harry Potter and the Sorcerer's Stone'?
+* Predicted  : Hagrid gives Harry an owl as a gift.
+* Actual : Hagrid offers to get Harry an owl as a birthday present.
 ----------------------------------------
 
 ## Comments
-In this project, I have demonstrated that the Transformer model is capable of generating meaningful and coherent responses even with a relatively small dataset. However, it is important to note that the responses are not perfect. 
 
+In this project, I have demonstrated that the Transformer model is capable of generating meaningful and coherent responses even with a relatively small dataset. On random inputs, replies showed "traces of intelligence". However, it is important to note that the responses are not perfect.
 
 The performance of the model can be significantly enhanced by incorporating additional data. Expanding the dataset to include text from other Harry Potter books, as well as supplementary information from external sources, will likely improve the model's accuracy and overall effectiveness.
+
 
 
 ## Authors

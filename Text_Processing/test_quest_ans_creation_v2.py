@@ -137,7 +137,7 @@ def load_checkpoint(checkpoint_file):
 ###############################################################################
 # Main Process
 if __name__ == "__main__":
-    choice = 'refining_qa'#refining_qa' gen_qa'
+    choice = 'gen_qa'#refining_qa' gen_qa'
     
     # Set up your OpenAI API key
     openai.api_key = 'YOUR OPENAI API'

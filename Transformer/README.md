@@ -56,16 +56,21 @@ The training loop will save model weights to final_weights.h5 and periodically s
 - **Actual:**  
   The correct or expected response for the given input.
 
-Test Case 7410
-* Input      : What dangerous reptiles did Dudley and Piers want to see at the reptile house, and what did Dudley find there?
-* Predicted  : Dudley quickly found the largest snake in the place.
-* Actual     : Dudley quickly found the largest snake in the place.
 -----------------
-Test Case 3168
-* Input      : What significance does Hagrid's decision to gift Harry an owl as a birthday present hold in the narrative of 'Harry Potter and the Sorcerer's Stone'?
-* Predicted  : Hagrid gives Harry an owl as a gift.
-* Actual : Hagrid offers to get Harry an owl as a birthday present.
+Test Case 7066
+* Input      : What is the significance of the connection between Harry's scar hurting and Quirrell's fingers blistering in this scene?
+* Predicted  : The connection between Harry's scar and Quirrell's fingers in this scene is significant because it is the connection between Harry and Voldemort, which is a connection between them.
+* Actual : Quirrell's fingers blistering is a result of trying to touch Harry's skin, as a form of protection by his mother's love, causing pain to both of them.
 ----------------------------------------
+Test Case Custom
+* Input      : What is the name of Harry Potter's school?
+* Predicted  : Hogwarts School of Witchcraft and Wizardry.
+* Actual     : Hogwarts School of Witchcraft and Wizardry.
+----------------------------------------
+Test Case Custom
+* Input      : What is the significance of the Mirror of Erised, and what does it show Harry when he looks into it?
+* Predicted  : The Mirror of Erised shows Harry his deepest desire, which is to see his deceased parents.
+* Actual     : The Mirror of Erised shows the deepest desires of a person's heart. When Harry looks into the mirror, he sees his parents, who died when he was a baby.
 
 ## Comments
 

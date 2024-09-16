@@ -667,13 +667,12 @@ if __name__ == "__main__":
     units = 512 #  dimensionality of the feedforward network (FFN) in the encoder and decoder layers. 
     d_model = 256 #  dimensionality of the embedding vectors
     num_heads = 8
-    dropout = 0.2 #  0.1 means that 10% of the inputs to a given layer are set to zero
+    dropout = 0.2 # ex: 0.1 means that 10% of the inputs to a given layer are set to zero
     train_dataset = val_dataset=  []
     EPOCHS = 20
     
     if (choice== 'train'):
         ##### data loadning and processing ########################################
-        #path_aq = 'C:/Users/Enrico/Desktop/Progetti/20 TRANSFORMERS/for_git/questions_and_answers_final.csv' # answer question path
         path_aq = './questions_and_answers_refined_final.csv'
         data = load_and_process_data(path_aq)
 

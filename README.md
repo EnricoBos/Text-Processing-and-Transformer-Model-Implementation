@@ -11,6 +11,6 @@ For more detailed information on each component, please explore the following fo
 
 - **[Text_Processing](./Text_Processing):** Contains scripts and resources related to the question-answer generation process.
 - **[Transformer](./Transformer):** Includes the implementation and details of the Transformer model.
-- **[Transformer](./Transformer):** Includes the implementation and details of the comparison between Transformer and RAG.
+- **[Transformer_RAG_comparison](./Transformer_RAG_comparison):** Includes the implementation and details of the comparison between Transformer and RAG.
 
 Each folder has its own README file with in-depth explanations and instructions.

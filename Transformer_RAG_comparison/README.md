@@ -1,23 +1,26 @@
-# Transformer Model for Question-Answer Dataset from Harry Potter and the Sorcerer's Stone
+# Comparative Study of Question-Answering Approaches: RAG vs. Transformer Models from scratch on Harry Potter (book 1)
 
-* This repository contains code for training and evaluating a Transformer model on a question-answer dataset derived from Harry Potter and the Sorcerer's Stone. The project demonstrates how to preprocess text data, train a Transformer model, and evaluate its performance.
+* This project presents my implementation of a Transformer model from scratch, and a simple Retrieval-Augmented Generation (RAG) approach, for a comparative study based on Harry Potter and the Sorcerer's Stone. The goal is to compare how well each method performs in answering specific questions.
 
 ## Overview
 The project involves:
 	- Data Processing: Cleaning question-answer pairs.
-	- Model Training: Training a Transformer model on the processed data.
-	- Evaluation: Testing the trained model with sample questions and custom queries.
-
-## Project Structure
-	* train_and_eval.py: The main script for training and evaluating the Transformer model.
-	* data_tokenized/: Directory to store tokenized data and model weights.
-	* checkpoints/: Directory for saving model checkpoints.
-
+	- RAG Implementation: Setting up a Retrieval-Augmented Generation model to generate answers based on retrieved information.
+	- Transformer Model Loading: Loading a pre-trained Transformer model that has been trained on the processed data.
+ 	- Comparison: Evaluating and comparing the performance of both models in answering specific questions.
 
 
 ## Dependencies
 Make sure you have the following packages installed:
-	* tensorflow numpy pandas scikit-learn sentencepiece contractions
+- OpenAI: For interfacing with OpenAI's language models.
+- LangChain: A framework for building applications with language models.
+- TensorFlow: For implementing the Transformer model.
+- pickle: For object serialization.
+- re: For regular expression operations.
+- sys: For system-specific parameters and functions.
+- 
+Importing Transformer Class
+The Transformer class is imported from the TransformerModel_with_classes.py script, which is located in the Transformer folder within this repository.
 
 
 

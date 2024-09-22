@@ -65,6 +65,11 @@ Test 3
 * Transformer Predicted : The Sorting Hat ceremony at Hogwarts is a magical Sorting Hat that determines which of the four houses each student will be sorted into.
 * RAG Predicted         :  The Sorting Hat ceremony is a significant event at Hogwarts where new students are sorted into one of the four houses and sets the tone for their Hogwarts experience.
 ----------------------------------------
+Test 4
+* Input                 : Who is the headmaster of Hogwarts during Harry's first year?
+* Transformer Predicted : Albus Dumbledore.
+* RAG Predicted         : Professor Dumbledore is the headmaster of Hogwarts during Harry's first year.
+----------------------------------------
 
 ## Authors
 

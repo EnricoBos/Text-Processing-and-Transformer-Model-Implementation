@@ -12,11 +12,7 @@ The project involves:
 
 ## Dependencies
 Make sure you have the following packages installed:
-- OpenAI: For interfacing with OpenAI's language models.
-- LangChain: A framework for building applications with language models.
-- TensorFlow: For implementing the Transformer model.
-- pickle: For object serialization.
-- re: For regular expression operations.
+- OpenAI,LangChain,TensorFlow,pickle,re,sys
  
 Importing Transformer Class
 - The Transformer class is imported from the TransformerModel.py script, which is located in the **[Transformer](../Transformer)**  folder within this repository.

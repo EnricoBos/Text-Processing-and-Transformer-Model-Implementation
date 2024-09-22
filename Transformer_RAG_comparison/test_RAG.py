@@ -97,16 +97,16 @@ def reply(sentence, transformer,  tokenizer_q, tokenizer_a):
 ###############################################################################
 
 if __name__ == "__main__":
-    choice = 'comparison'#'train_rag' #'comparison'
+    choice = ''#'rag' #'comparison' --> set you choice
     # Set up OpenAI API key
-    openai.api_key = 'YOUR OPEN API'
+    openai.api_key = 'YOUR OPENAI API'
     # OpenAI instance
     llm = OpenAI(temperature=0.7, api_key=openai.api_key) 
     embedding_model = OpenAIEmbeddings(api_key=openai.api_key)  # Use OpenAI to generate embeddings (numerical matrix) for chunks
     ###############################################################################
     folder_save_rag = './rag/'
     folder_transformer_model ='./transformer_model/'
-    if(choice == 'train_rag'):
+    if(choice == 'rag'):
         print('Starting RAG pipeline..')
         # Test LLM connection
         try:
@@ -183,7 +183,7 @@ if __name__ == "__main__":
     ### comparison btw transformer from scratch and RAG
     elif(choice == 'comparison'):
         print('Starting comparison btw transformer model from scratch and RAG')
-        ### load rag file
+        ### load "rag" file
         # Load chunks from a file
         with open(folder_save_rag + "chunks.pkl", "rb") as f:
             loaded_chunks = pickle.load(f)
@@ -206,8 +206,8 @@ if __name__ == "__main__":
         with open('data_tokenized/data_token.pickle', 'rb') as handle:
             data = pickle.load(handle)
 
-        train = data['train']
-        validation = data['validation']
+        #train = data['train']
+        #validation = data['validation']
         tokenizer_q = data['tokenizer_q']
         tokenizer_a = data['tokenizer_a']
         input_vocab_size = tokenizer_q.vocab_size() + 2

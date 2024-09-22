@@ -30,7 +30,7 @@ Set choice to 'rag' to start the RAG pipeline, which tests the OpenAI connection
 
 
 * Comparison Transformer vs RAG
-	- To evaluate the model, set the choice variable to 'eval':
+	- To start the domparison, set the choice variable to 'comparison':
 
 	```python
 	if __name__ == "__main__":

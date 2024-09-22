@@ -30,15 +30,13 @@ Set choice to 'rag' to start the RAG pipeline, which tests the OpenAI connection
 
 
 * Comparison Transformer vs RAG
-	- To start the domparison, set the choice variable to 'comparison':
+	- To start the comparison, set the choice variable to 'comparison':
 
 	```python
 	if __name__ == "__main__":
 		choice = 'comparison'
 		# (Comparison code here)
 	```
-
-Ensure the path to your text file is correctly specified in the path_txt variable. The text will be cleaned and processed, with the resulting chunks saved as chunks.pkl and the FAISS index stored in faiss_index.
 
 ## Some Results
 - **Input:**  

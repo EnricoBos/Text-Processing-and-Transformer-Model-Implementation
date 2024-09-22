@@ -1,6 +1,6 @@
 # Comparative Study of Question-Answering Approaches: RAG vs. Transformer Models from scratch on Harry Potter (book 1)
 
-This project presents my implementation of a Transformer model from scratch, and a simple Retrieval-Augmented Generation (RAG) approach, for a comparative study based on Harry Potter and the Sorcerer's Stone. The goal is to compare how well each method performs in answering specific questions.
+This project presents  a comparative study based on Harry Potter and the Sorcerer's Stone using my implementation of a Transformer model from scratch, and a simple Retrieval-Augmented Generation (RAG) approach. The goal is to evaluate how each method performs in answering specific questions.
 
 ## Overview
 The project involves:
@@ -28,7 +28,7 @@ Set choice to 'train_rag' to start the RAG pipeline, which tests the OpenAI conn
  		# (starting code here)
  	```
     It creates a vector store for efficient retrieval, generates answers to questions, and saves the processed data for future use. it prints the generated answer and the relevant source document.
-Ensure the path to your text file is correctly specified in the path_txt variable. The text will be cleaned and processed, with the resulting chunks saved as chunks.pkl and the FAISS index stored in faiss_index.
+
 
 * Comparison Transformer vs RAG
 	- To evaluate the model, set the choice variable to 'eval':
@@ -38,6 +38,8 @@ Ensure the path to your text file is correctly specified in the path_txt variabl
 		choice = 'comparison'
 		# (Comparison code here)
 	```
+
+Ensure the path to your text file is correctly specified in the path_txt variable. The text will be cleaned and processed, with the resulting chunks saved as chunks.pkl and the FAISS index stored in faiss_index.
 
 ## Some Results
 - **Input:**  

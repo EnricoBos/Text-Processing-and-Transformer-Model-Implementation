@@ -27,7 +27,6 @@ Set choice to 'rag' to start the RAG pipeline, which tests the OpenAI connection
  		choice = 'rag'
  		# (starting code here)
  	```
-    It creates a vector store for efficient retrieval, generates answers to questions, and saves the processed data for future use. it prints the generated answer and the relevant source document.
 
 
 * Comparison Transformer vs RAG

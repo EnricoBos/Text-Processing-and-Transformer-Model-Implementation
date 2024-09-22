@@ -73,6 +73,10 @@ Test 4
 * RAG Predicted         : Professor Dumbledore is the headmaster of Hogwarts during Harry's first year.
 ----------------------------------------
 
+## Comments
+With the questions used, both the Transformer model and the RAG pipeline provide satisfactory and compatible answers
+
+
 ## Authors
 
 * Enrico Boscolo

@@ -17,10 +17,9 @@ Make sure you have the following packages installed:
 - TensorFlow: For implementing the Transformer model.
 - pickle: For object serialization.
 - re: For regular expression operations.
-- sys: For system-specific parameters and functions.
  
-- Importing Transformer Class
-The Transformer class is imported from the TransformerModel.py script, which is located in the **[Transformer](../Transformer)**  folder within this repository.
+Importing Transformer Class
+- The Transformer class is imported from the TransformerModel.py script, which is located in the **[Transformer](../Transformer)**  folder within this repository.
 
 
 

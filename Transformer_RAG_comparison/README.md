@@ -4,7 +4,7 @@ This project presents  a comparative study based on Harry Potter and the Sorcere
 
 ## Overview
 The project involves:
--  Data Processing: Cleaning question-answer pairs.
+-  Data Processing: Cleaning text.
 -  RAG Implementation: Setting up a Retrieval-Augmented Generation model to generate answers based on retrieved information.
 -  Transformer Model Loading: Loading a pre-trained Transformer model that has been trained on the processed data.
 -  Comparison: Evaluating and comparing the performance of both models in answering specific questions.

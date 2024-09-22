@@ -1,6 +1,6 @@
 # Project Overview
 
-This project includes two main components:
+This project includes three main components:
 
 1. **Question-Answer Approach:** This component focuses on generating question-answer pairs from text data.
 2. **Transformer Model Implementation:** This part involves implementing a Transformer model using the generated question-answer pairs.

@@ -1,6 +1,6 @@
 # Comparative Study of Question-Answering Approaches: RAG vs. Transformer Models from scratch on Harry Potter (book 1)
 
-* This project presents my implementation of a Transformer model from scratch, and a simple Retrieval-Augmented Generation (RAG) approach, for a comparative study based on Harry Potter and the Sorcerer's Stone. The goal is to compare how well each method performs in answering specific questions.
+This project presents my implementation of a Transformer model from scratch, and a simple Retrieval-Augmented Generation (RAG) approach, for a comparative study based on Harry Potter and the Sorcerer's Stone. The goal is to compare how well each method performs in answering specific questions.
 
 ## Overview
 The project involves:

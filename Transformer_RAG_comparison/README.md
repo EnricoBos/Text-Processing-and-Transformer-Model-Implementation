@@ -18,9 +18,9 @@ Make sure you have the following packages installed:
 - pickle: For object serialization.
 - re: For regular expression operations.
 - sys: For system-specific parameters and functions.
-- 
-Importing Transformer Class
-The Transformer class is imported from the TransformerModel_with_classes.py script, which is located in the Transformer folder within this repository.
+ 
+- Importing Transformer Class
+The Transformer class is imported from the TransformerModel_with_classes.py script, which is located in the Transformer **[Transformer](../Transformer)**  folder within this repository.
 
 
 

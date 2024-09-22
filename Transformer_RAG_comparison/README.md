@@ -20,9 +20,8 @@ Importing Transformer Class
 
 ## Usage
 - RAG pipeline setting and test
-Set choice to 'rag' to start the RAG pipeline, which tests the OpenAI connection, loads and cleans the text from harry1.txt, and splits it into chunks. It creates a vector store for efficient retrieval, generates answers to questions, and saves the processed data for future use. Finally, it prints the generated answer and the relevant source document.
-
-	-  To start the RAG pipelin, set the choice variable to 'rag':
+     - Set choice variable to 'rag' to start the RAG pipeline, which tests the OpenAI connection, loads and cleans the text from harry1.txt, and splits it into chunks. It creates a vector store for efficient retrieval, generates answers to questions, and saves the processed data for future use. Finally, it prints the generated answer and the relevant source document.
+  
 	```python
 	if __name__ == "__main__":
  		choice = 'rag'

@@ -12,31 +12,28 @@ The project involves:
 
 ## Dependencies
 Make sure you have the following packages installed:
-- OpenAI,LangChain,TensorFlow,pickle,re,sys
+- OpenAI, LangChain, TensorFlow, pickle, re, sys
  
 Importing Transformer Class
 - The Transformer class is imported from the TransformerModel.py script, which is located in the **[Transformer](../Transformer)**  folder within this repository.
 
 
-
-## Data Processing: question/answer generation
-* The dataset used consists of question-answer pairs from Harry Potter and the Sorcerer's Stone. For data processing details, refer to the Text_Processing folder's README.
-
-
 ## Usage
-* Training
-	-  To train the model, set the choice variable to 'train' in the train_and_eval.py script:
-		if __name__ == "__main__":
-    			choice = 'train'
-    			# (Training code here)
-	   Ensure the path to your question-answer dataset is correctly specified in the path_aq variable. The dataset will be processed and saved as 	  	   data_tokenized/data_token.pickle.
-	   The training loop will save model weights to final_weights.h5 and periodically save checkpoints to ./checkpoints.
+* RAG pipeline test
+Set choice to 'train_rag' to start the RAG pipeline, which tests the OpenAI connection, loads and cleans the text from harry1.txt, and splits it into chunks. It creates a vector store for efficient retrieval, generates answers to questions, and saves the processed data for future use. Finally, it prints the generated answer and the relevant source document.
 
-* Evaluation
+	-  to start the RAG pipelin, set the choice variable to 'rag':
+		if __name__ == "__main__":
+    			choice = 'rag'
+    			# (starting code here)
+    It creates a vector store for efficient retrieval, generates answers to questions, and saves the processed data for future use. it prints the generated answer and the relevant source document.
+Ensure the path to your text file is correctly specified in the path_txt variable. The text will be cleaned and processed, with the resulting chunks saved as chunks.pkl and the FAISS index stored in faiss_index.
+
+* Comparison Transformer vs RAG
 	- To evaluate the model, set the choice variable to 'eval':
 		if __name__ == "__main__":
-    			choice = 'eval'
-    			# (Evaluation code here)
+    			choice = 'comparison'
+    			# (Comparison code here)
 
 
 ## Authors
